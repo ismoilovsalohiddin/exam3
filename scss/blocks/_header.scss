@@ -1,0 +1,40 @@
+.header__wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 32px 24px 32px;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+
+}
+
+.header__nav-link{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #1C1C1C;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+}
+
+.header__user {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    padding: 6px 7px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 256px;
+    background: #1C1C1C;        
+}
+
+.header__user-avatar {
+    color: #ffffff;
+    margin: 0;
+}

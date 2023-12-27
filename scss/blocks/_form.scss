@@ -1,0 +1,161 @@
+.form{
+    padding: 193px 436px 342px 437px;
+    position: relative;
+}
+
+.form__wrapp {
+    padding: 32px 24px;
+    border-radius: 8px;
+    border: 1px solid #E8E8E8;
+    background: #FFF; 
+    position: absolute;
+    top: 100px;
+}
+
+.form__wrapp-header {
+    color: #1C1C1C;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.form__wrapp-input {
+
+}
+
+.form__label{
+    color: #585757;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */    
+}
+
+.form__name {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 8px;
+    margin-bottom: 16px;    
+}
+.form-name-input {
+    border-radius: 8px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+    color: #969696;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    height: 40px;
+    width: 100%;
+    padding-left: 12px;    
+}
+
+.form__username {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 8px;
+    
+}
+
+.form__username-input {
+    border-radius: 8px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+    color: #969696;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    height: 40px;
+    width: 100%;
+    padding-left: 12px;
+}
+
+.form__email{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 8px;
+    margin-top: 16px;    
+}
+
+.form-email-input {
+    border-radius: 8px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+    color: #969696;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    height: 40px;
+    width: 100%;
+    padding-left: 12px;    
+}
+
+.form__password {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.form__password-input {
+    border-radius: 8px;
+    border: 1px solid #E8E8E8;
+    background: #FFF;
+    color: #969696;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    height: 40px;
+    width: 100%;
+    padding-left: 12px;
+}
+
+.form__bottom {
+    margin: 0 auto;
+    text-align: center;
+    width: 380px;
+    margin-top: 16px;
+    border-top: 1px solid #E8E8E8;
+    padding-top: 16px;
+
+}
+
+.form__bottom-parag {
+    color: #585757;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.form__bottom-link {
+    text-decoration: none;
+    color: #0085FF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
